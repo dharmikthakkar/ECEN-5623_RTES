@@ -25,7 +25,7 @@ clean:
 	 rm -rf $(OBJS)
 
 
-q3_o: q5_o.o
+q5_o: q5_o.o
 	$(CC) $(LDFLAGS) $(CFLAGS) -o $@ q5_o.o $(LIBS)
 
 depend:
