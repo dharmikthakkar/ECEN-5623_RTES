@@ -10,7 +10,7 @@
 #include <sys/param.h>
 
 /*
-* writer_therad: updates the structure consisting of navigational state and timestamp
+* writer_thread: updates the structure consisting of navigational state and timestamp
 * reader_thread: reads the data from the structure and prints it
 */
 pthread_t writer_thread;
@@ -43,8 +43,9 @@ struct timespec current_time;
 
 /*
 * Write thread function updates the structure. 
-* In this function, the elements of the structures are updated one after the other, for 10 iterations.
-* A delay of 1ms is deliberaltely inserted in between the structure update do analyse the possible corruption of the data when mutex is not used to lock the global resource.
+* In this function, the elements of the structures are updated all at once using a local structure nav_state_local.
+* Two delays of 8 seconds (which is between locking the mutex and updating the global structure) and 2 seconds (which is between unlocking the mutex and locking it again for the next sequence)
+* are deliberately inserted to demonstrate the functionality of mutex_timedlock.
 */
 void *Writer(void *arg)
 {
@@ -84,7 +85,10 @@ int temp=0, i=0;
 }
 
 
-/* Reader thread function reads the global structure and prints it. */ 
+/* Reader thread function reads the global structure and prints it.
+*  It uses mutex_timedlock to avoid a possible deadlock condition.
+*  It waits for a maximum of 5 seconds until other thread (writer thread) unblocks the mutex or its wait time expires.
+*/ 
 void *Reader(void *arg){
 	struct timespec *wait;
 	struct timespec wait_time;
