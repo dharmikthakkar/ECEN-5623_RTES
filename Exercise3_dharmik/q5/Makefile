@@ -8,10 +8,10 @@ LIBS= -lpthread -lrt
 LDFLAGS= -pthread
 
 
-PRODUCT=q2
+PRODUCT=q5
 
 HFILES=
-CFILES= q2.c
+CFILES= q5.c
 
 SRCS= ${HFILES} ${CFILES}
 OBJS= ${CFILES:.c=.o}
@@ -25,8 +25,8 @@ clean:
 	 rm -rf $(OBJS)
 
 
-q2_o: q2_o.o
-	$(CC) $(LDFLAGS) $(CFLAGS) -o $@ q2_o.o $(LIBS)
+q3_o: q5_o.o
+	$(CC) $(LDFLAGS) $(CFLAGS) -o $@ q5_o.o $(LIBS)
 
 depend:
 
