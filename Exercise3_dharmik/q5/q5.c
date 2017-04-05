@@ -60,21 +60,6 @@ void *Reader(void *arg){
 	//pthread_mutex_unlock(&mutex_nav_state);
 }
 
-void *Wait_Func(void *arg){
-	struct timespec *wait;
-	int ret;
-	wait = (struct timespec *)(malloc(sizeof(struct timespec)));
-	wait->tv_sec=10;
-	wait->tv_nsec=0;
-	sleep(10);
-	ret=pthread_mutex_timedlock(&mutex_nav_state, wait);
-	if(ret!=0){
-	clock_gettime(CLOCK_REAKTIME, &(nav_state_1.sample_time));
-	printf("No new data available at time:%ld seconds   %ld  nanoseconds\n", nav_state_1.sample_time.tv_sec, nav_state_1.sample_time.tv_nsec);
-	}
-
-		
-}
 	
 int main(int argc, char *argv[])
 {

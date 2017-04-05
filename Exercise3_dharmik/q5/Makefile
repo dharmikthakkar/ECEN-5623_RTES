@@ -1,4 +1,4 @@
-NCLUDE_DIRS = 
+INCLUDE_DIRS = 
 LIB_DIRS = 
 CC=gcc
 
