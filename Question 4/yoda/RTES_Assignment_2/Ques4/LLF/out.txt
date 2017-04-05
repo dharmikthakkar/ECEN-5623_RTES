@@ -1,0 +1,8 @@
+C0=1, T0=2; C1=2, T1=5; C2=1, T2=7; C3=2, T3=13; U = 1.20
+******** LLF Utility Bound Analysis ********
+INFEASIBLE
+******** LLF Utility Bound Analysis ********
+************ LLF Timing Analysis ************
+LCM Period: 910
+FEASIBLE
+************ LLF Timing Analysis ************

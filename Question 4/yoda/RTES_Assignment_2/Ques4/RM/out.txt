@@ -1,0 +1,31 @@
+******** Rate Monotonic Schedulibilty Test ********
+Rate Monotonic Upper Bound is a sufficient and not necessary test, 
+so if a process set fails the test, it may still meet its deadlines 
+
+Ex-0 U=0.73 (C1=1, C2=1, C3=2; T1=2, T2=10, T3=15; T=D)
+FEASIBLE
+Ex-1 U=0.99 (C1=1, C2=1, C3=2; T1=2, T2=5, T3=7; T=D)
+RM LUB Test is infeasible. Going for N&S RM Test
+INFEASIBLE
+Ex-2 U=1.00 (C1=1, C2=1, C3=1, C4=2; T1=2, T2=5, T3=7, T4=13; T=D)
+RM LUB Test is infeasible. Going for N&S RM Test
+INFEASIBLE
+Ex-3 U=0.93 (C1=1, C2=2, C3=3; T1=3, T2=5, T3=15; T=D)
+RM LUB Test is infeasible. Going for N&S RM Test
+FEASIBLE
+Ex-4 U=1.00 (C1=1, C2=1, C3=4; T1=2, T2=4, T3=16; T=D)
+RM LUB Test is infeasible. Going for N&S RM Test
+FEASIBLE
+Ex-5 U=1.00 (C1=1, C2=2, C3=1; T1=2, T2=5, T3=10; T=D)
+RM LUB Test is infeasible. Going for N&S RM Test
+FEASIBLE
+Ex-6 U=1.00 (C1=1, C2=1, C3=1, C4=2; T1=2, T2=5, T3=7, T4=13; T=D)
+RM LUB Test is infeasible. Going for N&S RM Test
+INFEASIBLE
+Ex-7 U=1.00 (C1=1, C2=2, C3=4; T1=3, T2=5, T3=15; T=D)
+RM LUB Test is infeasible. Going for N&S RM Test
+FEASIBLE
+Ex-8 U=1.20 (C1=1, C2=2, C3=1, C4=2; T1=2, T2=5, T3=7, T4=13; T=D)
+RM LUB Test is infeasible. Going for N&S RM Test
+INFEASIBLE
+******** Rate Monotonic Schedulibilty Test ********

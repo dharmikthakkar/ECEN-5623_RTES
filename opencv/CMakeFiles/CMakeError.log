@@ -1,0 +1,258 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++ [enabled by default]'
+Compilation failed:
+    source file: '/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /var/www/yoda/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec629326333/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec629326333.dir/build.make CMakeFiles/cmTryCompileExec629326333.dir/build
+make[1]: Entering directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec629326333.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTryCompileExec629326333.dir/src.cxx.o -c /var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++ [enabled by default]
+/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTryCompileExec629326333
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec629326333.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec629326333.dir/src.cxx.o  -o cmTryCompileExec629326333 -rdynamic 
+make[1]: Leaving directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++ [enabled by default]'
+Compilation failed:
+    source file: '/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /var/www/yoda/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec350311826/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec350311826.dir/build.make CMakeFiles/cmTryCompileExec350311826.dir/build
+make[1]: Entering directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec350311826.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTryCompileExec350311826.dir/src.cxx.o -c /var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++ [enabled by default]
+/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTryCompileExec350311826
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec350311826.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec350311826.dir/src.cxx.o  -o cmTryCompileExec350311826 -rdynamic 
+make[1]: Leaving directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C [enabled by default]'
+Compilation failed:
+    source file: '/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /var/www/yoda/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4165308498/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4165308498.dir/build.make CMakeFiles/cmTryCompileExec4165308498.dir/build
+make[1]: Entering directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4165308498.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTryCompileExec4165308498.dir/src.c.o   -c /var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C [enabled by default]
+/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTryCompileExec4165308498
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4165308498.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4165308498.dir/src.c.o  -o cmTryCompileExec4165308498 -rdynamic 
+make[1]: Leaving directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C [enabled by default]'
+Compilation failed:
+    source file: '/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /var/www/yoda/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3313230658/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3313230658.dir/build.make CMakeFiles/cmTryCompileExec3313230658.dir/build
+make[1]: Entering directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3313230658.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTryCompileExec3313230658.dir/src.c.o   -c /var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C [enabled by default]
+/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTryCompileExec3313230658
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3313230658.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3313230658.dir/src.c.o  -o cmTryCompileExec3313230658 -rdynamic 
+make[1]: Leaving directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args" [enabled by default]'
+Compilation failed:
+    source file: '/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /var/www/yoda/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4045828937/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4045828937.dir/build.make CMakeFiles/cmTryCompileExec4045828937.dir/build
+make[1]: Entering directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4045828937.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTryCompileExec4045828937.dir/src.cxx.o -c /var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.cxx
+/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args" [enabled by default]
+Linking CXX executable cmTryCompileExec4045828937
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4045828937.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4045828937.dir/src.cxx.o  -o cmTryCompileExec4045828937 -rdynamic 
+make[1]: Leaving directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args" [enabled by default]'
+Compilation failed:
+    source file: '/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /var/www/yoda/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2520809125/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2520809125.dir/build.make CMakeFiles/cmTryCompileExec2520809125.dir/build
+make[1]: Entering directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2520809125.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTryCompileExec2520809125.dir/src.c.o   -c /var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c
+/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args" [enabled by default]
+Linking C executable cmTryCompileExec2520809125
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2520809125.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2520809125.dir/src.c.o  -o cmTryCompileExec2520809125 -rdynamic 
+make[1]: Leaving directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C [enabled by default]'
+Compilation failed:
+    source file: '/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /var/www/yoda/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2366475122/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2366475122.dir/build.make CMakeFiles/cmTryCompileExec2366475122.dir/build
+make[1]: Entering directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2366475122.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec2366475122.dir/src.c.o   -c /var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C [enabled by default]
+/var/www/yoda/opencv/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTryCompileExec2366475122
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2366475122.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2366475122.dir/src.c.o  -o cmTryCompileExec2366475122 -rdynamic 
+make[1]: Leaving directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /var/www/yoda/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec518616193/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec518616193.dir/build.make CMakeFiles/cmTryCompileExec518616193.dir/build
+make[1]: Entering directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec518616193.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec518616193.dir/TestEndianess.c.o   -c /var/www/yoda/opencv/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec518616193
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec518616193.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec518616193.dir/TestEndianess.c.o  -o cmTryCompileExec518616193 -rdynamic 
+make[1]: Leaving directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /var/www/yoda/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec217481390/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec217481390.dir/build.make CMakeFiles/cmTryCompileExec217481390.dir/build
+make[1]: Entering directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec217481390.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec217481390.dir/CheckIncludeFile.c.o   -c /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/var/www/yoda/opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+make[1]: Leaving directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec217481390.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec217481390/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /var/www/yoda/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1955226078/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1955226078.dir/build.make CMakeFiles/cmTryCompileExec1955226078.dir/build
+make[1]: Entering directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1955226078.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1955226078.dir/CheckIncludeFile.c.o   -c /var/www/yoda/opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/var/www/yoda/opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+make[1]: Leaving directory `/var/www/yoda/opencv/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1955226078.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec1955226078/fast] Error 2
+
+
